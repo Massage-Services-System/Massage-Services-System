@@ -1,0 +1,5 @@
+feat(ui): zbudowac frontendowy proces rezerwacji
+
+Uruchomiono proces masaż–masażysta–data–wolna godzina–podsumowanie–potwierdzenie z identyfikatorem wizyty. Frontend pobiera dostępność z rzeczywistego API, chroni przed wielokrotnym wysłaniem i zachowuje kontekst po konflikcie 409. Na tym etapie przegląd działa przez lokalne konto demo; logowanie w kliencie Telegram dołącza #9.
+
+Refs #7
