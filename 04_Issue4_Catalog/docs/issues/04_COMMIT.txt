@@ -1,0 +1,5 @@
+feat(catalog): filtrowac katalog masazy wedlug stref ciala
+
+Udostępniono strefy ciała, katalog masaży i listę masażystów przez API. Filtrowanie korzysta z relacji SQLAlchemy; odpowiedzi zawierają opis, czas, cenę i przypisane strefy. Pusty lub nieznany filtr zwraca 422. Seed jest demonstracyjny i wymaga porównania z PDF karty projektu.
+
+Refs #4

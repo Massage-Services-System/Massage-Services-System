@@ -1,0 +1,32 @@
+{
+  "issue": 4,
+  "owner": "Ihor Kozmuk",
+  "apply_after_issue": 3,
+  "semantic_dependencies": [
+    2,
+    3
+  ],
+  "files": [
+    {
+      "path": "app/services.py",
+      "action": "replace",
+      "previous_sha256": "d090b70e6d955ad3a571d23dbefd3fdd1c32b8bdd3a0668a47f588369c8f0c63",
+      "sha256": "f526ad7f5384e8a07975114a162e4e57b0bb40954030748b0eee45b8b06d843c",
+      "bytes": 4383
+    },
+    {
+      "path": "docs/issues/04_COMMIT.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "c057ce180aacd564f7eb97b5eb0c09ff5512affb109b85d76a51e9fcc59d2e24",
+      "bytes": 356
+    },
+    {
+      "path": "docs/issues/04_INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "3c63151a8c4607e1223fe8913cf3c59bafe04470d8f4680b318d64341c4e81a4",
+      "bytes": 2396
+    }
+  ]
+}
