@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c0d0b">
+  <meta name="description" content="Twoja chwila spokoju. Odkryj masaże, wybierz swój rytuał i zarezerwuj wizytę w Massage Services System.">
+  <title>Massage Services System — Twoja chwila spokoju</title>
+  <link rel="icon" href="/assets/lotus.png" type="image/png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/readability.css">
+  <script src="/assets/runtime-config.js" defer></script>
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Massage Services System — strona główna"><img src="/assets/lotus.png" alt="" width="56" height="56"><span>MASSAGE<small>SERVICES SYSTEM</small></span></a>
+    <nav class="main-nav" aria-label="Nawigacja główna">
+      <button class="nav-link active" data-nav="home">Odkryj</button>
+      <button class="nav-link" data-nav="massages">Masaże</button>
+      <button class="nav-link" data-nav="visits">Moje wizyty<span id="visit-count" class="count" hidden>0</span></button>
+    </nav>
+    <div class="header-right"><span id="session-label" class="session-label"><span class="tiny-lotus">✧</span> Chwila dla Ciebie</span><button class="btn btn-outline btn-small" data-action="browse">Zarezerwuj wizytę</button></div>
+  </header>
+
+  <main id="main">
+    <div id="home-view">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> PRZESTRZEŃ DLA TWOJEGO SPOKOJU</p>
+          <h1 id="hero-title">Zatrzymaj się.<br>Poczuj <em>równowagę.</em></h1>
+          <p class="hero-description">Odłóż codzienność na chwilę. Odkryj masaż dopasowany do Ciebie i podaruj swojemu ciału uważność, na którą zasługuje.</p>
+          <div class="hero-actions"><button class="btn btn-gold" data-action="browse"><span class="icon" data-icon="calendar"></span>Zarezerwuj chwilę</button><a class="text-link" href="#rituals">Odkryj nasze masaże</a></div>
+          <div class="hero-note"><span class="icon" data-icon="shield"></span><span>Twój wybór. Twój rytm. Twój czas.</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-glow"></div><img class="hero-lotus" src="/assets/lotus.png" alt="" width="600" height="600"><div class="art-caption"><span class="caption-line"></span> HARMONIA ZACZYNA SIĘ OD CIEBIE <span class="caption-line"></span></div></div>
+      </section>
+      <div class="benefits-strip" aria-label="Jak to działa"><div><span class="icon" data-icon="body"></span><span>Wybierz obszar ciała</span></div><span class="strip-divider"></span><div><span class="icon" data-icon="lotus"></span><span>Znajdź swój masaż</span></div><span class="strip-divider"></span><div><span class="icon" data-icon="calendar"></span><span>Zarezerwuj dogodny termin</span></div><span class="strip-divider"></span><div><span class="icon" data-icon="spark"></span><span>Zadbaj o swoją równowagę</span></div></div>
+
+      <section class="rituals-section" id="rituals" aria-labelledby="rituals-title">
+        <div class="section-heading"><div><p class="eyebrow">MASAŻ DOPASOWANY DO CIEBIE</p><h2 id="rituals-title">Czego potrzebuje <em>Twoje ciało?</em></h2></div><p>Wskaż obszar na sylwetce lub po prostu<br class="desktop-break"> wybierz rytuał, na który masz ochotę.</p></div>
+        <div class="catalog-layout">
+          <aside class="body-panel">
+            <div class="body-panel-top"><h3>Wsłuchaj się w siebie</h3><span class="icon" data-icon="body"></span></div>
+            <p>Dotknij wybranej strefy ciała.</p>
+            <div class="segmented" aria-label="Widok sylwetki"><button class="active" data-body-view="front" aria-pressed="true">Przód</button><button data-body-view="back" aria-pressed="false">Tył</button></div>
+            <div class="anatomy-container">
+              <div class="body-grid" aria-hidden="true"></div>
+              <svg id="body-map" class="body-map" viewBox="0 0 280 440" role="group" aria-label="Interaktywna mapa stref ciała">
+                <defs><linearGradient id="skin" x1="0" x2="1"><stop stop-color="#262a25"/><stop offset=".5" stop-color="#424238"/><stop offset="1" stop-color="#252822"/></linearGradient><linearGradient id="bodyGold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6d88c"/><stop offset="1" stop-color="#a77c37"/></linearGradient></defs>
+                <ellipse cx="140" cy="423" rx="68" ry="9" fill="#c4a366" opacity=".07"/>
+                <path class="body-base" d="M125 18Q140 9 155 18Q165 29 159 49L153 64L155 76Q177 81 188 90L201 137L211 179L213 204L226 222Q231 231 224 234L210 225L203 212L192 186L178 141L175 171L181 207L173 239L167 301L164 339L159 394L166 407Q168 414 156 415L145 412L142 393L140 342L137 285L134 340L132 393L130 412L117 415Q106 414 112 405L118 394L113 337L110 299L103 239L99 209L105 172L102 141L89 185L77 212L69 225L55 234Q47 231 54 222L67 204L69 179L79 138L92 91Q101 83 125 76L127 64L121 49Q114 29 125 18Z"/>
+                <path class="body-detail" d="M140 78V181M108 119Q125 125 140 119Q155 125 172 119M106 173Q140 186 176 173M102 209Q140 221 180 209M140 223L135 273M119 300L124 340M161 300L156 340M121 394L131 394M148 394L159 394"/>
+                <g data-zone="neck" class="body-zone" role="button" tabindex="0" aria-label="Kark i szyja" aria-pressed="false"><title>Kark i szyja</title><path d="M127 61Q140 69 153 61L155 79Q140 88 125 79Z"/></g>
+                <g data-zone="shoulders" class="body-zone" role="button" tabindex="0" aria-label="Barki" aria-pressed="false"><title>Barki</title><path d="M125 77L123 94L103 112L90 108L93 92Q108 82 125 77ZM155 77L157 94L177 112L190 108L187 92Q172 82 155 77Z"/></g>
+                <g data-zone="arms" class="body-zone" role="button" tabindex="0" aria-label="Ramiona i dłonie" aria-pressed="false"><title>Ramiona i dłonie</title><path d="M90 111L103 115L97 143L86 182L76 208L68 224L56 231L54 226L68 204L71 178L80 138ZM177 115L190 111L200 138L209 178L211 204L226 226L224 231L212 224L204 208L194 182L183 143Z"/></g>
+                <g data-zone="back" class="body-zone back-zone" role="button" tabindex="-1" aria-label="Plecy — widok z tyłu" aria-pressed="false" style="display:none"><title>Plecy</title><path d="M125 85Q140 90 155 85L173 112L173 171L177 202Q140 216 103 202L107 171L107 112Z"/></g>
+                <g data-zone="legs" class="body-zone" role="button" tabindex="0" aria-label="Nogi" aria-pressed="false"><title>Nogi</title><path d="M104 226Q120 235 136 228L134 284L131 339L130 388L119 388L114 337L111 299ZM144 228Q160 235 176 226L167 299L163 337L158 388L147 388L145 339L142 284Z"/></g>
+                <g data-zone="feet" class="body-zone" role="button" tabindex="0" aria-label="Stopy" aria-pressed="false"><title>Stopy</title><path d="M118 392L132 392L129 411L117 414L110 409ZM146 392L160 392L167 409L156 414L146 411Z"/></g>
+                <g class="body-point" aria-hidden="true"><circle cx="140" cy="76" r="4"/><circle cx="99" cy="98" r="4"/><circle cx="181" cy="98" r="4"/><circle cx="80" cy="175" r="4"/><circle cx="200" cy="175" r="4"/><circle cx="121" cy="276" r="4"/><circle cx="158" cy="276" r="4"/></g>
+              </svg>
+              <span class="body-side-label" id="body-side-label">PRZÓD CIAŁA</span>
+            </div>
+            <div class="zone-list" id="zone-list" aria-label="Wybierz strefę z listy"></div>
+            <button class="reset-zone" id="reset-zone" hidden><span class="icon" data-icon="close"></span> Wyczyść wybór</button>
+            <p class="body-disclaimer"><span class="icon" data-icon="info"></span> Wybór strefy pomaga znaleźć masaż.<br> Nie jest diagnozą medyczną.</p>
+          </aside>
+          <div class="catalog-main">
+            <div class="catalog-toolbar"><div class="filter-tabs" id="filter-tabs" aria-label="Kategoria masażu"><button class="active" data-filter="all" aria-pressed="true">Wszystkie</button><button data-filter="Relaks" aria-pressed="false">Relaks</button><button data-filter="Regeneracja" aria-pressed="false">Regeneracja</button><button data-filter="Rytuał" aria-pressed="false">Rytuały</button></div><span class="catalog-count" id="catalog-count"></span></div>
+            <div class="zone-context" id="zone-context" hidden></div>
+            <div id="catalog-error" class="inline-error" hidden role="alert"></div>
+            <div class="service-grid" id="service-grid" aria-live="polite"><div class="loading-state"><span class="spinner"></span>Przygotowujemy Twoją chwilę spokoju…</div></div>
+          </div>
+        </div>
+      </section>
+      <section class="quiet-banner"><span class="banner-symbol" aria-hidden="true">✧</span><div><p class="eyebrow">MAŁY RYTUAŁ. WIELKA RÓŻNICA.</p><h2>Znajdź czas, który należy <em>tylko do Ciebie.</em></h2></div><button class="btn btn-outline" data-action="browse">Wybierz swój masaż</button></section>
+    </div>
+
+    <section id="visits-view" class="visits-section" hidden aria-labelledby="visits-title"><div class="section-heading"><div><p class="eyebrow">TWOJA PRZESTRZEŃ</p><h1 id="visits-title">Moje <em>wizyty.</em></h1></div><button class="btn btn-gold" data-action="browse"><span class="icon" data-icon="plus"></span>Nowa rezerwacja</button></div><div id="visits-content" aria-live="polite"></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#"><img src="/assets/lotus.png" alt="" width="42" height="42"><span>MASSAGE<small>SERVICES SYSTEM</small></span></a><p>Uważność dla ciała. Przestrzeń dla Ciebie.</p><div><a href="/privacy">Prywatność</a><a href="https://t.me/MassageServicesSystem_bot" target="_blank" rel="noopener noreferrer">Telegram<span class="icon" data-icon="telegram"></span></a></div><p class="demo-disclaimer">Projekt studencki · Przykładowa oferta, personel i ceny</p></footer>
+
+  <dialog id="booking-dialog" aria-labelledby="booking-title" class="booking-dialog">
+    <div class="dialog-inner"><button class="close-button" data-close="booking-dialog" aria-label="Zamknij rezerwację"><span class="icon" data-icon="close"></span></button>
+      <div class="booking-header"><p class="eyebrow">CHWILA TYLKO DLA CIEBIE</p><h2 id="booking-title">Twój czas na <em>regenerację.</em></h2><div class="step-track" aria-label="Etapy rezerwacji"><span id="step-choice" class="active">Termin</span><i></i><span id="step-summary">Podsumowanie</span><i></i><span id="step-done">Potwierdzenie</span></div></div>
+      <div id="booking-body" class="booking-body">
+        <div class="booking-fields"><div id="booking-select-step"><label class="field-label" for="therapist-select">Wybierz masażystę</label><div class="select-wrap"><select id="therapist-select"></select><span class="icon" data-icon="chevron"></span></div><p id="therapist-specialty" class="field-helper"></p><div class="date-label"><label class="field-label" for="booking-date">Wybierz datę</label><span>Czas w Warszawie</span></div><input id="booking-date" type="date" required><div class="date-quick-list" id="date-quick-list"></div><p class="field-label slots-label">Dostępne godziny</p><div class="time-slots" id="time-slots" role="group" aria-label="Dostępne godziny" aria-live="polite"></div></div>
+        <div id="booking-review-step" hidden><h3>Sprawdź szczegóły wizyty</h3><div id="review-details" class="review-details"></div><label class="field-label" for="booking-note">Coś, co powinniśmy wiedzieć? <span>(opcjonalnie)</span></label><textarea id="booking-note" placeholder="Twoje preferencje dotyczące wizyty…" maxlength="500" rows="3"></textarea><p class="field-helper">Nie podawaj w notatce danych medycznych.</p><p class="review-hint"><span class="icon" data-icon="shield"></span>Rezerwacja bez płatności online. Możesz ją anulować przed rozpoczęciem wizyty.</p></div>
+        <div id="booking-error" class="inline-error" role="alert" hidden></div><div class="booking-controls"><button class="text-link" id="booking-back" hidden>Wróć do terminu</button><button class="btn btn-gold" id="booking-next" disabled>Sprawdź rezerwację</button></div></div>
+        <aside class="booking-summary"><div class="summary-icon" id="summary-icon"></div><span id="summary-category" class="eyebrow"></span><h3 id="summary-name"></h3><div class="summary-meta"><span id="summary-duration"></span><span id="summary-price"></span></div><div class="summary-divider"></div><div class="summary-caption"><span class="icon" data-icon="lotus"></span><p>Zrób miejsce na spokój.<br>Resztą zajmiemy się my.</p></div><p class="summary-demo">Oferta demonstracyjna projektu studenckiego.</p></aside>
+      </div>
+      <div id="booking-success" class="booking-success" hidden><div class="success-check"><span class="icon" data-icon="check"></span></div><p class="eyebrow">DO ZOBACZENIA</p><h2>Twoja chwila jest <em>zarezerwowana.</em></h2><p id="success-detail"></p><p class="booking-reference" id="booking-reference"></p><button class="btn btn-gold" id="success-visits">Zobacz moje wizyty</button></div>
+    </div>
+  </dialog>
+  <dialog id="cancel-dialog" class="confirm-dialog" aria-labelledby="cancel-title"><button class="close-button" data-close="cancel-dialog" aria-label="Zamknij"><span class="icon" data-icon="close"></span></button><div class="summary-icon"><span class="icon" data-icon="calendar"></span></div><h2 id="cancel-title">Anulować wizytę?</h2><p>Termin wróci do dostępnej puli. Zawsze możesz zarezerwować kolejną chwilę dla siebie.</p><div id="cancel-error" class="inline-error" role="alert" hidden></div><div class="confirm-actions"><button class="btn btn-outline" data-close="cancel-dialog">Zachowaj wizytę</button><button class="btn btn-gold" id="confirm-cancel">Anuluj wizytę</button></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
