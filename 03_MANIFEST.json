@@ -1,0 +1,46 @@
+{
+  "issue": 3,
+  "owner": "Bohdan Oleksiv",
+  "apply_after_issue": 2,
+  "semantic_dependencies": [
+    1,
+    2
+  ],
+  "files": [
+    {
+      "path": "app/security.py",
+      "action": "replace",
+      "previous_sha256": "7fc471cb2b1020a8980d122991a558db42a88a5eeb32c8724d34b77247f644c5",
+      "sha256": "c52a33964393c804cb93c07ee81fe69468a7fa7a4dd1f2cbb9a89934772f45cb",
+      "bytes": 3259
+    },
+    {
+      "path": "app/api.py",
+      "action": "replace",
+      "previous_sha256": "0044e01d46a7df726ca9f7345e197ce6cb4e635415b7a238ae00077fc14f67a4",
+      "sha256": "b494577d64cfc2406bf737c9db96333b693742887e00fef6db2a828e83e73c1a",
+      "bytes": 4240
+    },
+    {
+      "path": "app/services.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "d090b70e6d955ad3a571d23dbefd3fdd1c32b8bdd3a0668a47f588369c8f0c63",
+      "bytes": 3954
+    },
+    {
+      "path": "docs/issues/03_COMMIT.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "17431619d996458edb1e8bfe8b75b9a5b54a5d353b6e08e6b71cea560add1919",
+      "bytes": 414
+    },
+    {
+      "path": "docs/issues/03_INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "224991a3fb6d4a9680695b767be0314a9867dbe263bfbeab886316935a1e8dfd",
+      "bytes": 2611
+    }
+  ]
+}

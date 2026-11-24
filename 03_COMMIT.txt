@@ -1,0 +1,5 @@
+feat(auth): weryfikowac Telegram initData i zapisywac uzytkownika
+
+Zaimplementowano weryfikację HMAC-SHA256 Telegram initData, kontrolę czasu i podpisane sesje. Użytkownik jest tworzony lub aktualizowany idempotentnie. Nieprawidłowe dane zwracają jawne błędy 4xx. Lokalny tryb demo jest ograniczony do loopback i wyłączany w produkcji. Katalog i rezerwacje zostaną dodane w kolejnych zadaniach.
+
+Refs #3
