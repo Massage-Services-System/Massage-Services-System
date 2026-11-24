@@ -1,0 +1,67 @@
+{
+  "issue": 5,
+  "owner": "Oleksandr Zinchuk",
+  "apply_after_issue": 4,
+  "semantic_dependencies": [
+    1,
+    4
+  ],
+  "files": [
+    {
+      "path": "frontend/privacy.html",
+      "action": "replace",
+      "previous_sha256": "b769bb10092dd15c841957c0e77dfea57e8a4e969f1e449790e8851b4e90c4c8",
+      "sha256": "0855e363e077a1f9ac4605fc4d4b479a57d698a5bf3a7b807c53fe2dda7ae32e",
+      "bytes": 2142
+    },
+    {
+      "path": "frontend/assets/style.css",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "604722a177577044ad6f109442b97166605f24577bb2ba466490f0e413a66fb2",
+      "bytes": 32099
+    },
+    {
+      "path": "frontend/assets/readability.css",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "c5a5fb9489c4f569da0b0178918134430aa99dbce47d6b33e96734039dea2fe9",
+      "bytes": 6482
+    },
+    {
+      "path": "frontend/assets/lotus.png",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "672d41688e64146e4d498e9ccdc3a91c582b7e2c7e389f28e593dbf383ef8f23",
+      "bytes": 1111172
+    },
+    {
+      "path": "frontend/index.html",
+      "action": "replace",
+      "previous_sha256": "611b5211255a104054bc39b857e1e8654d6501603e079733402af6f7d50e61e1",
+      "sha256": "25b700e493a68e1120864d25f7a3f48c80ffb8d73bd5227beb554d16d0a1c5e3",
+      "bytes": 14211
+    },
+    {
+      "path": "frontend/assets/app.js",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "733eabdd67549e88ff4489372330576b27c940c911a8d7505a0e8cda15d9762e",
+      "bytes": 14082
+    },
+    {
+      "path": "docs/issues/05_COMMIT.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "c535796be73544b28067599bf0a0977e058460cbf0cd230a8854c840136e968a",
+      "bytes": 421
+    },
+    {
+      "path": "docs/issues/05_INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "168f36c3850111c14737c649dd1c959e95e17cf267c3200e47f2d3d80c9dac9a",
+      "bytes": 2896
+    }
+  ]
+}

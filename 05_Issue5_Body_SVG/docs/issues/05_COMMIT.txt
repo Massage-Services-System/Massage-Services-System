@@ -1,0 +1,5 @@
+feat(ui): dodac interaktywna sylwetke SVG i wybor strefy
+
+Dodano czarno-złoty, responsywny układ z lotosem, mapą SVG i katalogiem. Strefy mają hover, selected, nazwy dostępności, obsługę Enter/Spacja i listę alternatywną. Wybór strefy pobiera pasujące masaże z API. Wspólny układ zawiera miejsca na późniejsze kroki rezerwacji; ich logika dochodzi w #7 i #8, a integracja klienta Telegram w #9.
+
+Refs #5
