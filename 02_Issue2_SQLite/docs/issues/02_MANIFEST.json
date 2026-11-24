@@ -1,0 +1,45 @@
+{
+  "issue": 2,
+  "owner": "Ihor Kozmuk",
+  "apply_after_issue": 1,
+  "semantic_dependencies": [
+    1
+  ],
+  "files": [
+    {
+      "path": "app/models.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "ce17105c40cccbe0e91b28964b8751593330519bcdc1de0eac4abba446f22528",
+      "bytes": 3978
+    },
+    {
+      "path": "app/seed.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "c72edeb453645f8ebe3a7129aaa7b81d73c192467b8c09d23977a2c1dfd01b60",
+      "bytes": 2556
+    },
+    {
+      "path": "app/api.py",
+      "action": "replace",
+      "previous_sha256": "0d76e5498c9cc894ac65bebc9b8c860434084dc4380776cfe06d9322cbaa608c",
+      "sha256": "0044e01d46a7df726ca9f7345e197ce6cb4e635415b7a238ae00077fc14f67a4",
+      "bytes": 1726
+    },
+    {
+      "path": "docs/issues/02_COMMIT.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "0966e1a9aea30b9c31debca867af6c7f0cd8806e4a61e387571e078b98bfcd94",
+      "bytes": 408
+    },
+    {
+      "path": "docs/issues/02_INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "1ac304e7ad07cc01a9e8d0ed9871e02a4f25c454a7f28b3f4d36e98ba5089b6d",
+      "bytes": 2579
+    }
+  ]
+}

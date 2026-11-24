@@ -1,0 +1,5 @@
+feat(db): dodac modele SQLite SQLAlchemy i idempotentny seed
+
+Dodano modele użytkowników, masażystów, grafików, masaży, stref ciała i rezerwacji. Inicjalizacja tworzy tabele i idempotentnie ładuje dane demonstracyjne. Relacje katalogu i złożony klucz zajętych slotów przygotowują bazę do sprawdzania dostępności. Konkretne dane z PDF wymagają jeszcze porównania z kartą projektu.
+
+Refs #2
