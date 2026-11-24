@@ -1,0 +1,33 @@
+{
+  "issue": 7,
+  "owner": "Oleksandr Zinchuk",
+  "apply_after_issue": 6,
+  "semantic_dependencies": [
+    3,
+    5,
+    6
+  ],
+  "files": [
+    {
+      "path": "frontend/assets/app.js",
+      "action": "replace",
+      "previous_sha256": "733eabdd67549e88ff4489372330576b27c940c911a8d7505a0e8cda15d9762e",
+      "sha256": "66229a67b898987341b771b1b999b9bebf4e9ef2d9fcd3b2435018d6c44a1558",
+      "bytes": 19665
+    },
+    {
+      "path": "docs/issues/07_COMMIT.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "cd717c5063ee92c6df0cc9d4429d9f8b3a5bdc6febe6fd9b1e8ac16382e8da9c",
+      "bytes": 409
+    },
+    {
+      "path": "docs/issues/07_INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "7cad8214b3daa7d16cf7003bffb372a7993189bebbee77c126e70af16fb5d6ca",
+      "bytes": 2531
+    }
+  ]
+}
