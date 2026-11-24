@@ -1,0 +1,155 @@
+{
+  "issue": 1,
+  "owner": "Bohdan Oleksiv",
+  "apply_after_issue": 0,
+  "semantic_dependencies": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "b1b3f841f4e4efd897447fad87ef51cf11d5931aa422b4fe6d6da869c3309e13",
+      "bytes": 125
+    },
+    {
+      "path": ".dockerignore",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "85799711ed752c847185e47b82fc4771e9ca9b9d84a434fd5e70a164e6ea58fe",
+      "bytes": 77
+    },
+    {
+      "path": ".env.example",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "b08d17a5310ee36804441c30466727f1b117aa7bc9bc3dac88abac2ccf9438c9",
+      "bytes": 215
+    },
+    {
+      "path": "requirements.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "8c842a8de602bf997aef8f599c13d6505718772b0571c8fef830b61348e7a957",
+      "bytes": 114
+    },
+    {
+      "path": "requirements-preview.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "29f3ec0495e1c49e9a919887f4fe2c05ed1d633f864fb6c59f4f7034aa5d6322",
+      "bytes": 79
+    },
+    {
+      "path": "START.cmd",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "bd81df9ee7b0ec12682be5d99dbc11a178d86233a5a4222286e7ed2fa40b2735",
+      "bytes": 900
+    },
+    {
+      "path": "PREVIEW_OFFLINE.cmd",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "8a40ac48476e5bf11040bbaba9fc289320c256547c16cad93b30159ca2d4e931",
+      "bytes": 230
+    },
+    {
+      "path": "app/__init__.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "app/config.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "41046b3f2c819ed461cd0062634565fdaca36bdb9bf3e64862d017e3ff95f8b7",
+      "bytes": 1776
+    },
+    {
+      "path": "app/schemas.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "064deecd2d0a5e321a4e487d644f0e75d7e0364e2f507ea9a29f799781d81c88",
+      "bytes": 1608
+    },
+    {
+      "path": "app/preview.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "30db57335c5270d9946bda6750c22aa3b60135c5d977a57bd3f6b8c62b9ebc6c",
+      "bytes": 2879
+    },
+    {
+      "path": "app/security.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "7fc471cb2b1020a8980d122991a558db42a88a5eeb32c8724d34b77247f644c5",
+      "bytes": 256
+    },
+    {
+      "path": "app/api.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "0d76e5498c9cc894ac65bebc9b8c860434084dc4380776cfe06d9322cbaa608c",
+      "bytes": 1571
+    },
+    {
+      "path": "app/main.py",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "b32d452825bdf61de5c11561d81a230817eb9c116d5646fbfc24d1d6881f7969",
+      "bytes": 5272
+    },
+    {
+      "path": "frontend/assets/.gitkeep",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "frontend/index.html",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "611b5211255a104054bc39b857e1e8654d6501603e079733402af6f7d50e61e1",
+      "bytes": 222
+    },
+    {
+      "path": "frontend/privacy.html",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "b769bb10092dd15c841957c0e77dfea57e8a4e969f1e449790e8851b4e90c4c8",
+      "bytes": 160
+    },
+    {
+      "path": "README.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "d19b471901b7b452005d4bc27c7ce54a1035d78830f4727fe45837a0c7bc2da9",
+      "bytes": 357
+    },
+    {
+      "path": "docs/issues/INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "6300cf44a8835d8edc7eec621e3317b15f278da3e206d22cb550792216af2a79",
+      "bytes": 3020
+    },
+    {
+      "path": "docs/issues/01_COMMIT.txt",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "317568496eeacd454647c5dc45825681a11269be29e4c38aa709cd926a7aae52",
+      "bytes": 380
+    },
+    {
+      "path": "docs/issues/01_INSTRUKCJA.md",
+      "action": "add",
+      "previous_sha256": null,
+      "sha256": "b4a701cb7690693ebd8fd1b4e3fc16061ccbc026fa3c93dcb7454f4aa3879f37",
+      "bytes": 3336
+    }
+  ]
+}

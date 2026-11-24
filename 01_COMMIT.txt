@@ -1,0 +1,5 @@
+feat(api): przygotowac szkielet FastAPI i kontrakt REST
+
+Przygotowano strukturę aplikacji, konfigurację środowiska, schematy Pydantic i wersjonowane trasy /api/v1. Dodano health-check, spójne błędy JSON, OpenAPI oraz uruchamianie przez START.cmd. Trasy funkcji biznesowych są na tym etapie jawnymi odpowiedziami 501; kolejne zadania zastępują je implementacją.
+
+Refs #1
