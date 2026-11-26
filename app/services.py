@@ -62,13 +62,21 @@ class Salon:
             return {'id': u.id, 'name': u.name, 'demo': u.telegram_id.startswith('demo:')}
 
     def catalog(self, zone=None):
-        raise ApiError(501, 'not_implemented', 'Ta funkcja zostanie dodana w kolejnym zadaniu.')
+        with self.Session() as db:
+            if zone is not None and (not zone or not db.get(Zone, zone)):
+                raise ApiError(422, 'unknown_zone', 'Wybierz prawidłową strefę ciała.')
+            query = select(Service).order_by(Service.id)
+            if zone:
+                query = query.where(Service.zones.any(Zone.id == zone))
+            return [service_dict(s) for s in db.scalars(query)]
 
     def zones(self):
-        raise ApiError(501, 'not_implemented', 'Ta funkcja zostanie dodana w kolejnym zadaniu.')
+        with self.Session() as db:
+            return [{'id': z.id, 'name': z.name} for z in db.scalars(select(Zone))]
 
     def therapists(self):
-        raise ApiError(501, 'not_implemented', 'Ta funkcja zostanie dodana w kolejnym zadaniu.')
+        with self.Session() as db:
+            return [{k: getattr(t, k) for k in ('id', 'name', 'specialty', 'initials')} for t in db.scalars(select(Therapist).order_by(Therapist.id))]
 
     def parse_date(self, value):
         raise ApiError(501, 'not_implemented', 'Ta funkcja zostanie dodana w kolejnym zadaniu.')
